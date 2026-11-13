@@ -1,0 +1,62 @@
+{
+  "upstream": "https://github.com/espressif/esp-sr",
+  "commit": "78a923d29a45e4e1433b909d3da12ab5b0f994fc",
+  "files": [
+    {
+      "path": "include/esp_tts.h",
+      "source": "esp-tts/esp_tts_chinese/include/esp_tts.h",
+      "bytes": 3948,
+      "git_blob_sha1": "67f8f92e70e0da4c9728a892b73ae46ad4930ea7",
+      "sha256": "ef925074e8b8da7a7149a04f3a09cc14899a5415643a47a18dc80bbe270e3a4a"
+    },
+    {
+      "path": "include/esp_tts_voice.h",
+      "source": "esp-tts/esp_tts_chinese/include/esp_tts_voice.h",
+      "bytes": 915,
+      "git_blob_sha1": "1bb3939b3114cf2996a3d8ab60298de4ae45c038",
+      "sha256": "40496276b98bb25413d3abe015151806f40507ecf26b894e7558547a22eb496e"
+    },
+    {
+      "path": "include/esp_tts_voice_xiaole.h",
+      "source": "esp-tts/esp_tts_chinese/include/esp_tts_voice_xiaole.h",
+      "bytes": 88,
+      "git_blob_sha1": "f87866ae6cb93ec36e39cda448d0ee84b3cf350c",
+      "sha256": "b7b9610f9ba1beac20eb0d58ef6b942e3b9099ee8bedb0622b0d4bef5e77e4ae"
+    },
+    {
+      "path": "lib/libesp_tts_chinese.a",
+      "source": "esp-tts/esp_tts_chinese/esp32s3/libesp_tts_chinese.a",
+      "bytes": 1546404,
+      "git_blob_sha1": "53521ac069c9fb20a8d2c3f84a1ecf87fea3f386",
+      "sha256": "7034c1075a464ae355eb4452d267e27831ecb519bf4629b85464be03796819f3"
+    },
+    {
+      "path": "lib/libvoice_set_xiaole.a",
+      "source": "esp-tts/esp_tts_chinese/esp32s3/libvoice_set_xiaole.a",
+      "bytes": 4548092,
+      "git_blob_sha1": "0291e6a7b98efd31e6051ec24026020103a858c1",
+      "sha256": "3cf241ca026f7497fec3ea961e83a7e7ccdfc7fa5440811be5e71ebc964fb08e"
+    },
+    {
+      "path": "LICENSE",
+      "source": "LICENSE",
+      "bytes": 1187,
+      "git_blob_sha1": "8e206f3bc38f5fa84a4956f2d5030ca17daea0d7",
+      "sha256": "7d916fb00bc0742c47cafb0d0144b67f826d76779730b1cb8796045ea6ba1b9a"
+    },
+    {
+      "path": "voice_xiaole.dat",
+      "source": "esp-tts/esp_tts_chinese/esp_tts_voice_data_xiaole.dat",
+      "bytes": 2938039,
+      "git_blob_sha1": "a406c868d7c010b77345f13eeefbd808075d3441",
+      "sha256": "e4aaadc1566b984e3ffc47f654ff52ed3fb8f5af420ffb187bd8a8741706d382"
+    },
+    {
+      "path": "include/esp_tts_voice_template.h",
+      "source": "esp-tts/esp_tts_chinese/include/esp_tts_voice_template.h",
+      "bytes": 90,
+      "git_blob_sha1": "ce5f5b6f45559854a39924cbfcbfe828ef993e0e",
+      "sha256": "d3e6aebae238a76c55445de63ba93a5d592575e4c6bb5bd9969ddcdb1fcf3bcd"
+    }
+  ]
+}

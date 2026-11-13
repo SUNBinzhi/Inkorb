@@ -1,0 +1,11 @@
+menu "Inkorb voice"
+config INKORB_DUPLEX_TTS
+    bool "Use Volcengine bidirectional streaming TTS"
+    default y
+config INKORB_LOCAL_TTS
+    bool "Synthesize Chinese replies locally with Espressif ESP-TTS"
+    default n
+    help
+        Keep cloud speech recognition and DeepSeek, but render Chinese speech
+        on this ESP32-S3. Disable to restore the previous cloud TTS path.
+endmenu

@@ -1,0 +1,6 @@
+#pragma once
+/* Copy to voice_cloud_config.h (git-ignored) and fill in your own keys.
+ * Or run: python3 voice_cloud/prepare_config.py */
+#define INKORB_DEEPSEEK_KEY    "YOUR_DEEPSEEK_API_KEY"     /* LLM: chat, tools, web search */
+#define INKORB_SILICONFLOW_KEY "YOUR_SILICONFLOW_API_KEY"  /* speech-to-text */
+#define INKORB_VOLCENGINE_KEY  "YOUR_VOLCENGINE_API_KEY"   /* text-to-speech */

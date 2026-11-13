@@ -1,0 +1,27 @@
+# Build output and fetched dependencies
+build/
+sim/build/
+managed_components/
+sdkconfig.old
+sdkconfig.before-*
+
+# Secrets: never commit (copy the *.example files instead)
+main/voice_cloud_config.h
+main/voice_bridge_config.h
+main/wifi_credentials.h
+voice_cloud/credentials.json
+voice_cloud/previous_wifi_credentials.h
+voice_bridge/config.json
+
+# Local tooling
+voice_bridge/.venv/
+voice_bridge/models/
+**/__pycache__/
+.DS_Store
+
+# Large font sources (download separately; see fonts/OFL.txt)
+fonts/*.ttf
+
+# Simulator scratch screenshots
+sim/*.png
+sim/*.ppm

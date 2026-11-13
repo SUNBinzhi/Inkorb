@@ -1,0 +1,5 @@
+#pragma once
+/* Copy to voice_bridge_config.h (git-ignored). Only used with the optional
+ * LAN bridge in voice_bridge/; leave empty when using the cloud pipeline. */
+#define INKORB_VOICE_URL   ""
+#define INKORB_VOICE_TOKEN ""
