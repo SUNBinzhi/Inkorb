@@ -4,6 +4,21 @@
 
 一个圆屏的口袋 AI 伙伴 + DJI 相机遥控器，基于微雪 ESP32-S3 1.75 寸圆形 AMOLED 开发板。ESP-IDF 5.5 + LVGL 9.5。
 
+## 界面截图
+
+所有界面都是为 466×466 圆屏设计的。
+
+<table>
+<tr><td align="center"><img src="docs/screens/home.png" width="200"><br><sub>表盘主页</sub></td><td align="center"><img src="docs/screens/boot-ready.png" width="200"><br><sub>开机</sub></td><td align="center"><img src="docs/screens/chat.png" width="200"><br><sub>语音对话</sub></td><td align="center"><img src="docs/screens/chat-listen.png" width="200"><br><sub>正在聆听</sub></td></tr>
+<tr><td align="center"><img src="docs/screens/settings.png" width="200"><br><sub>设置圆盘</sub></td><td align="center"><img src="docs/screens/usage.png" width="200"><br><sub>用量与余额</sub></td><td align="center"><img src="docs/screens/wifi-setup.png" width="200"><br><sub>手机配网</sub></td><td align="center"><img src="docs/screens/wifi.png" width="200"><br><sub>Wi-Fi 列表</sub></td></tr>
+</table>
+
+**DJI 相机遥控**（真机截图，Osmo 360 / Action 5）：
+
+<table>
+<tr><td align="center"><img src="docs/screens/dji-list.png" width="200"><br><sub>相机列表</sub></td><td align="center"><img src="docs/screens/dji-connected.png" width="200"><br><sub>已连接：8K · 50 帧</sub></td><td align="center"><img src="docs/screens/dji-recording.png" width="200"><br><sub>录制中</sub></td><td align="center"><img src="docs/screens/dji-asleep.png" width="200"><br><sub>相机休眠</sub></td></tr>
+</table>
+
 ## 硬件
 
 | 部件 | 说明 |

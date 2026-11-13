@@ -5,6 +5,21 @@
 A round-screen pocket AI companion and DJI camera remote, built on the
 Waveshare ESP32-S3 1.75" round AMOLED board. ESP-IDF 5.5 + LVGL 9.5.
 
+## Screenshots
+
+All UI is drawn for the 466×466 round panel.
+
+<table>
+<tr><td align="center"><img src="docs/screens/home.png" width="200"><br><sub>Home watch face</sub></td><td align="center"><img src="docs/screens/boot-ready.png" width="200"><br><sub>Boot</sub></td><td align="center"><img src="docs/screens/chat.png" width="200"><br><sub>Voice chat</sub></td><td align="center"><img src="docs/screens/chat-listen.png" width="200"><br><sub>Listening</sub></td></tr>
+<tr><td align="center"><img src="docs/screens/settings.png" width="200"><br><sub>Settings dial</sub></td><td align="center"><img src="docs/screens/usage.png" width="200"><br><sub>Usage &amp; balance</sub></td><td align="center"><img src="docs/screens/wifi-setup.png" width="200"><br><sub>Phone Wi-Fi setup</sub></td><td align="center"><img src="docs/screens/wifi.png" width="200"><br><sub>Wi-Fi networks</sub></td></tr>
+</table>
+
+**DJI camera remote** (captured from the real device, Osmo 360 / Action 5):
+
+<table>
+<tr><td align="center"><img src="docs/screens/dji-list.png" width="200"><br><sub>Camera list</sub></td><td align="center"><img src="docs/screens/dji-connected.png" width="200"><br><sub>Connected: 8K · 50 fps</sub></td><td align="center"><img src="docs/screens/dji-recording.png" width="200"><br><sub>Recording</sub></td><td align="center"><img src="docs/screens/dji-asleep.png" width="200"><br><sub>Camera asleep</sub></td></tr>
+</table>
+
 ## Hardware
 
 | Part | Detail |

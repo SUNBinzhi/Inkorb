@@ -140,7 +140,7 @@ bool wifi_sta_status(char *ssid, size_t len, int *rssi, char *ip)
     if (!strcmp(sim_wifi(), "off")) return false;
     if (ssid) snprintf(ssid, len, "MyWiFi");
     if (rssi) *rssi = -48;
-    if (ip) snprintf(ip, 16, "192.168.18.252");
+    if (ip) snprintf(ip, 16, "192.168.1.20");
     return true;
 }
 int wifi_sta_saved(char ssids[][33], int max)
@@ -151,6 +151,8 @@ int wifi_sta_saved(char ssids[][33], int max)
     return n;
 }
 void wifi_sta_forget(const char *ssid) { (void)ssid; }
+void wifi_sta_hold(void) {}
+void wifi_sta_release(void) {}
 void wifi_sta_use(const char *ssid) { (void)ssid; }
 wifi_try_state_t wifi_sta_try_state(char *ssid, size_t len, const char **why)
 {
@@ -261,7 +263,7 @@ static void build_demo_ui(inkorb_home_t *ui)
     }
     inkorb_home_create(ui);
     inkorb_home_set_demo_clock(ui, "14:32", "2026-10-28");
-    inkorb_home_set_ip(ui, "192.168.18.252");
+    inkorb_home_set_ip(ui, "192.168.1.20");
     /* INKORB_SIM_BATT="73" or "73,charging" or "100,plugged" previews the capsule battery. */
     const char *batt = getenv("INKORB_SIM_BATT");
     if (batt) {
